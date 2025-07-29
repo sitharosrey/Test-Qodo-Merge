@@ -16,7 +16,7 @@ public class Main {
         return a + b;
     }
 
-    public Integer subStract(int a, int b) {
+    public Integer subtract(int a, int b) {
         return a - b;
     }
 
