@@ -15,4 +15,12 @@ public class Main {
     public Integer sum(int a, int b) {
         return a + b;
     }
+
+    public Integer subStract(int a, int b) {
+        return a - b;
+    }
+
+    public Integer multiply(int a, int b) {
+        return a * b;
+    }
 }
