@@ -4,7 +4,8 @@ public class Cart {
     private double totalAmount;
 
     public double calculateTotalPrice(double price, double discount, double taxRate) {
-        totalAmount = price * (1 - discount) + price * taxRate;
+        double discountedPrice = price * (1 - discount);
+        totalAmount = discountedPrice * (1 + taxRate);
         return totalAmount;
     }
 
